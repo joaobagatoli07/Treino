@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        
+        body{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        table{
+            margin: auto;
+            position: absolute;
+            top: 0; 
+            bottom: 0;
+            left: 0; 
+            right: 0;
+        }
+
+        .titulo{
+            background-color: #cc0000;
+            color: white;
+            font-size: 18px;
+        }
+
+        .subtitulo{
+            background-color: #ff4040;
+            color: white;
+        }
+
+        th{
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        td{
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+
+        <tr>
+            <th colspan="4" class="titulo"><i>Planejamento Semanal - Carga Horária</i></th>
+        </tr>
+
+        <tr>
+            <td class="subtitulo">Dia</td>
+            <td class="subtitulo">Horário</td>
+            <td class="subtitulo">Horas</td>
+            <td class="subtitulo">Observação</td>
+        </tr>
+
+        <tr>
+            <td class="subtitulo">Segunda</td>
+            <td><b>14h - 19h</b></td>
+            <td>5</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <td class="subtitulo">Terça</td>
+            <td><b>16h - 18h</b></td>
+            <td>2</td>
+            <td>Aula de Inglês</td>
+        </tr>
+
+        <tr>
+            <td class="subtitulo">Quarta</td>
+            <td><b>14h - 19h</b></td>
+            <td>5</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <td class="subtitulo">Quinta</td>
+            <td><b>16h - 20h</b></td>
+            <td>4</td>
+            <td>Aula de Inglês</td>
+        </tr>
+
+        <tr>
+            <td class="subtitulo">Sexta</td>
+            <td><b>14h - 18h</b></td>
+            <td>4</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="subtitulo">Total de horas semanais</td>
+            <td colspan="2"><b>20h</b></td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
